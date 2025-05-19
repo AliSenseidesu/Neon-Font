@@ -4,4 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: ""
-    startCommand: python main.py
+    startCommand: "python main.py"
+    envVars:
+      - key: TOKEN
+        value: "7284358314:AAGrJ0KguMo-qSbkkEdPz6ZGS3WXE2Hh_-0"
